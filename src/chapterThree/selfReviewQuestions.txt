@@ -1,0 +1,114 @@
+3.1 Fill in the blanks in each of the following:
+a) Each class declaration that begins with keyword public must be stored in a file that has exactly the same name as the class and ends with the .java filename extension.
+
+b) Keyword class in a class declaration is followed immediately by the class’s name.
+
+c) Keyword new requests memory from the system to store an object, then calls the
+corresponding class’s constructor to initialize the object.
+
+d) Each parameter must specify both a data type and a name.
+
+e) By default, classes that are compiled in the same directory are considered to be in the same package, known as the default package.
+
+f) Java provides two primitive types for storing floating-point numbers in memory: double and float.
+
+g) Variables of type double represent double precision floating-point numbers.
+
+h) Scanner method next.Double returns a double value.
+
+i) Keyword public is an access modifier.
+
+j) Return type void indicates that a method will not return a value.
+
+k) Scanner method nextLine reads characters until it encounters a newline character, then returns those characters as a String.
+
+l) Class String is in package java.lang.
+
+m) A import declaration is not required if you always refer to a class with its fully qualified class name.
+
+n) A floating point number is a number with a decimal point, such as 7.33, 0.0975 or 1000.12345.
+
+o) Variables of type float represent single-precision floating-point numbers.
+
+p) The format specifier %f is used to output values of type float or double.
+
+q) Types in Java are divided into two categories— Primitive types and Non-Primitive/Reference types.
+
+
+3.2 State whether each of the following is true or false. If false, explain why.
+
+a) By convention, method names begin with an uppercase first letter, and all subsequent words in the name begin with a capital first letter.
+	False, method names are typed in camelCase. Start with lowercase first letter of first word and all following words have uppercase first letter.
+
+b) An import declaration is not required when one class in a package uses another in the same package.
+	True
+
+c) Empty parentheses following a method name in a method declaration indicate that the method does not require any parameters to perform its task.
+	True
+
+d) A primitive-type variable can be used to invoke a method.
+	False A primitive-type variable cannot be used to invoke a method—a reference to an object is required to invoke the object’s methods
+
+e) Variables declared in the body of a particular method are known as instance variables and can be used in all methods of the class.
+	False. Such variables are called local variables and can be used only in the method in which they're declared.
+
+f) Every method’s body is delimited by left and right braces ({ and }).
+	True
+
+g) Primitive-type local variables are initialized by default.
+	False. Primitive-type instance variables are initialized by default but local variable must be assigned a value.
+
+h) Reference-type instance variables are initialized by default to the value null.
+	True
+
+i) Any class that contains public static void main(String[] args) can be used to execute an app.
+	True
+
+j) The number of arguments in the method call must match the number of parameters in the method declaration’s parameter list.
+	True
+
+k) Floating-point values that appear in source code are known as floating-point literals and are type float by default.
+	False. Such literals are of type double by default.
+
+3.3 What is the difference between a local variable and an instance variable?
+
+A local variable:
+
+    is declared inside a method/constructor or within a block (enclosed in braces)
+    must be initialized before use. Otherwise, it won't compile.
+
+An instance variable:
+
+    is declared inside a class.
+    initialization is not compulsory: if omitted, it contains the default value (0, 0.0, false, null, etc.)
+
+
+3.4 Explain the purpose of a method parameter. What is the difference between a parameter and an argument?
+    Information can be passed to methods as parameter. Parameters act as variables inside the method.
+    When a parameter is passed to the method, it is called an argument.
+
+3.5 (Keyword new) What’s the purpose of keyword new? Explain what happens when you use it.
+The purpose of keyword new is to create an object of a class.
+
+When keyword new is used in an application, first a new object of the class to the right of new is created, then the class's constructor is called to ensure that the object is initialized properly.
+
+3.6 (Default Constructors) What is a default constructor? How are an object’s instance variables initialized if a class has only a default constructor?
+A default constructor is a constructor without parameters.
+Instance variables are initialized to their default values.
+
+3.7 (Instance Variables) Explain the purpose of an instance variable.
+	Instance variable in Java is used by Objects to store their states.
+
+3.8 (Using Classes without Importing Them) Most classes need to be imported before they can be used in an app. Why is every app allowed to use classes System and String without first importing them?
+	They are both in package java.lang, which is implicitly imported into every Java source-code file.
+	Which prevents it from being accidentally modified by a class in another part of the program.
+
+3.9 (Using a Class without Importing It) Explain how a program could use class Scanner without importing it.
+	A program could use class Scanner without importing it if every use of Scanner in the program were specified as java.util.Scanner 	or java.util.Scanner s=new java.util.Scanner(System.in);
+
+3.10 (set and get Methods) Explain why a class might provide a set method and a get method for an instance variable.
+An instance variable is usually declared private in a class so only the methods of the class where the instance variable is declared can manipulate it. This prevents the variable from being modified intentionally or accidentally by a class in another part of the program.
+
+In some cases, it may be necessary for an application to modify the private data.
+For example, the owner of a bank account should be able to deposit or withdraw funds and check the account’s balance.
+A class’s designer can provide public set and get methods that enable the application to specify the value for, or retrieve the value of, a particular object’s private instance variable.
