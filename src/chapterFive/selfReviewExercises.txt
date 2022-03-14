@@ -1,0 +1,46 @@
+5.1 Fill in the blanks in each of the following statements:
+a) Typically, for statements are used for counter-controlled repetition and while statements for sentinel-controlled repetition.
+
+b) The do…while statement tests the loop-continuation condition after executing the loop’s body; therefore, the body always executes at least once.
+
+c) The switch statement selects among multiple actions based on the possible values of an integer variable or expression, or a String.
+
+d) The continue statement, when executed in a repetition statement, skips the remaining statements in the loop body and proceeds with the next iteration of the loop.
+
+e) The conditional and (&&) operator can be used to ensure that two conditions are both true before choosing a certain path of execution.
+
+f) If the loop-continuation condition in a for header is initially false, the program does not execute the for statement’s body.
+
+g) Methods that perform common tasks and do not require objects are called static methods.
+
+5.2 State whether each of the following is true or false. If false, explain why.
+a) The default case is required in the switch selection statement.
+    False, the default case is optional
+b) The break statement is required in the last case of a switch selection statement.
+    False, the break statement is used to exit the switch case.
+c) The expression ((x > y) && (a < b)) is true if either x > y is true or a < b is true.
+    False. Both expressions must be true for the entire expression to be true when using the && operator.
+d) An expression containing the || operator is true if either or both of its operands are true.
+    True.
+e) The comma (,) formatting flag in a format specifier (e.g., %,20.2f) indicates that a value should be output with a thousand separator.
+    True.
+f) To test for a range of values in a switch statement, use a hyphen (–) between the start and end values of the range in a case label.
+g) Listing cases consecutively with no statements between them enables the cases to perform the same set of statements.
+
+5.3 Write a Java statement or a set of Java statements to accomplish each of the following tasks:
+a) Sum the odd integers between 1 and 99, using a for statement. Assume that the integer
+variables sum and count have been declared.
+b) Calculate the value of 2.5 raised to the power of 3, using the pow method.
+c) Print the integers from 1 to 20, using a while loop and the counter variable i. Assume
+that the variable i has been declared, but not initialized. Print only five integers per line.
+[Hint: Use the calculation i % 5. When the value of this expression is 0, print a newline
+character; otherwise, print a tab character. Assume that this code is an application. Use
+the System.out.println() method to output the newline character, and use the System.
+out.print('\t') method to output the tab character.]
+d) Repeat part (c), using a for statement.
+
+5.5 Describe the four basic elements of counter-controlled repetition.
+5.6 Compare and contrast the while and for repetition statements.
+5.7 Discuss a situation in which it would be more appropriate to use a do…while statement
+than a while statement. Explain why.
+5.8 Compare and contrast the break and continue statements.
