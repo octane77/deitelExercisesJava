@@ -1,0 +1,225 @@
+2.1 Fill in the blanks in each of the following statements:
+a) A left brace ({) begins the body of every method, and a right brace(}) ends the body of every method.
+b) You can use the “if” statement to make decisions.
+c) // begins an end-of-line comment.
+d) Space characters, tab indents and empty new lines are called white space.
+e) Keywords are reserved for use by Java.
+f) Java applications begin execution at method “Main”
+g) Methods System.out.print, System.out.println and, System.out.printf display information in a command window.
+
+2.2 State whether each of the following is true or false. If false, explain why.
+a) Comments cause the computer to print the text after the // on the screen when the program executes.
+	False. Comments do not cause any action when the program is executed.
+	They are only used to improve code readability
+
+b) All variables must be given a type when they’re declared.
+	True
+
+c) Java considers the variables number and NuMbEr to be identical.
+	False, Java is case-sensitive, so number and NuMber mean different things
+
+d) The remainder operator (%) can be used only with integer operands.
+	False. The remainder operator can also be used with non-integer operands.
+
+e) The arithmetic operators *, /, %, + and - all have the same level of precedence.
+	False. The operators *, / and % are higher precedence than operators + and -
+
+2.3 Write statements to accomplish each of the following tasks:
+
+a) Declare variables c, thisIsAVariable, q76354 and number to be of type int.
+	int c, thisIsAVariable, q76354, number;
+
+b) Prompt the user to enter an integer.
+	System.out.print("Enter an integer: ");
+
+c) Input an integer and assign the result to int variable value.
+   Assume Scanner variable input can be used to read a value from the keyboard.
+	value = input.nextInt();
+
+d) Print "This is a Java program" on one line in the command window. Use the method System.out.println.
+	 System.out.println("This is a Java program");
+
+e) Print "This is a Java program" on two lines in the command window.
+   The first line should end with Java. Use method System.out.printf and two %s format specifiers.
+	System.out.printf("%s%n%s%n", "This is a Java", "program");
+
+f) If the variable number is not equal to 7, display "The variable number is not equal to 7".
+	if (number != 7) System.out.println("The variable number is not equal to 7");
+
+2.4 Identify and correct the errors in each of the following statements:
+	if (c => 7)   System.out.println("c is equal to or greater than 7");
+	Semicolon after the right parenthesis of the condition ( c < 7 ) in the if.
+	Correction: Remove the semicolon after the right parenthesis.
+
+2.5 Write declarations, statements or comments that accomplish each of the following tasks:
+a) State that a program will calculate the product of three integers.
+	//This program will calculate the products of the integers
+
+b) Create a Scanner called input that reads values from the standard input.
+	Scanner input = new Scanner( System.in );
+
+c) Declare the variables x, y, z and result to be of type int.
+	 int  x, y, z, result;
+
+d) Prompt the user to enter the first integer.
+	System.out.print( "Enter first integer:" );
+
+e) Read the first integer from the user and store it in the variable x.
+	x = input.nextInt();
+
+f) Prompt the user to enter the second integer.
+	System.out.print( "Enter second integer:" );
+
+g) Read the second integer from the user and store it in the variable y.
+	y = input.nextInt();
+
+h) Prompt the user to enter the third integer.
+	System.out.print( "Enter third integer:" );
+
+i) Read the third integer from the user and store it in the variable z.
+	z = input.nextInt();
+
+j) Compute the product of the three integers contained in variables x, y and z, and assign the result to the variable result.
+	result = x * y * z;
+
+k) Use System.out.printf to display the message "Product is" followed by the value of the variable result.
+	System.out.printf( "Product is %d\n", result );
+
+2.7 Fill in the blanks in each of the following statements:
+
+a) Comments are used to document a program and improve its readability.
+
+b) A decision can be made in a Java program with a(n) If statement.
+
+c) Calculations are normally performed by assignment statements.
+
+d) The arithmetic operators with the same precedence as multiplication are / division and % remainder .
+
+e) When parentheses in an arithmetic expression are nested, the innermost set of parentheses is evaluated first.
+
+f) A location in the computer’s memory that may contain different values at various times throughout the execution of a program is called a Variable.
+
+2.8 Write Java statements that accomplish each of the following tasks:
+a) Display the message "Enter an integer:", leaving the cursor on the same line.
+	System.out.Print("Enter an integer");
+
+b) Assign the product of variables b and c to variable a.
+	a=b*c
+
+c) Use a comment to state that a program performs a sample payroll calculation.
+	// This program is used to perform payroll calculation
+
+2.9 State whether each of the following is true or false. If false, explain why.
+
+a) Java operators are evaluated from left to right.
+	This is false, some operators evaluate from right to left e.g Assignment
+
+b) The following are all valid variable names: _under_bar_, m928134, t5, j7, her_sales$, his_$account_total, a, b$, c, z and z2.
+	True
+
+c) A valid Java arithmetic expression with no parentheses is evaluated from left to right.
+	False. Expressions are evaluated according to operator precedence.
+
+d) The following are all invalid variable names: 3g, 87, 67h2, h22 and 2h.
+	False. h22 is a valid variable name.
+
+2.10 Assuming that x = 2 and y = 3, what does each of the following statements display?
+
+a) System.out.printf("x = %d%n", x); x =2
+
+b) System.out.printf("Value of %d + %d is %d%n", x, x, (x + x)); 2 + 2 = 4
+
+c) System.out.printf("x ="); x =
+
+d) System.out.printf("%d = %d%n", (x + y), (y + x)); 5 = 5
+
+
+2.11 Which of the following Java statements contain variables whose values are modified?
+
+a) p = i + j + k + 7;
+
+d) value = input.nextInt();
+
+2.12 Given that y = ax3 + 7, which of the following are correct Java statements for this equation?
+a) y = a * x * x * x + 7;
+d) y = (a * x) * x * x + 7;
+e) y = a * (x * x * x) + 7;
+
+2.13 State the order of evaluation of the operators in each of the following Java statements, and show the value of x after each statement is performed:
+
+a) x = 7 + 3 * 6 / 2 - 1;
+
+	3 * 6 = 18
+    	18 / 2 = 9
+    	7 + 9 = 16
+    	16 - 1 = 15
+    	x = 15
+
+b) x = 2 % 2 + 2 * 2 - 2 / 2;
+
+	2 % 2 = 0
+    	2 * 2 = 4
+    	2 / 2 = 1
+    	0 + 4 = 4
+    	4 - 1 = 3
+    	x = 3
+
+
+c) x = (3 * 9 * (3 + (9 * 3 / (3))));
+
+	9 x 3 = 27
+    	27 / 3 = 9
+    	3 + 9 = 12
+    	3 x 9 = 27
+    	27 x 12 = 324
+    	x = 324
+
+2.19 What does the following code print?
+System.out.printf("*%n**%n***%n****%n*****%n");
+*
+**
+***
+****
+*****
+
+2.20 What does the following code print?
+System.out.println("*");
+System.out.println("***");
+System.out.println("*****");
+System.out.println("****");
+System.out.println("**");
+
+*
+***
+*****
+****
+**
+
+
+2.21 What does the following code print?
+System.out.print("*");
+System.out.print("***");
+System.out.print("*****");
+System.out.print("****");
+System.out.println("**");
+
+***************
+
+2.22 What does the following code print?
+System.out.print("*");
+System.out.println("***");
+System.out.println("*****");
+System.out.print("****");
+System.out.println("**");
+
+****
+*****
+******
+
+2.23 What does the following code print?
+System.out.printf("%s%n%s%n%s%n", "*", "***", "*****");
+
+*
+***
+*****
+
