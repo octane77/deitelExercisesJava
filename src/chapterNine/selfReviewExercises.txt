@@ -1,0 +1,35 @@
+9.1 Fill in the blanks in each of the following statements:
+a) is a form of software reusability in which new classes acquire the members of
+existing classes and embellish those classes with new capabilities.
+b) A superclass’s members can be accessed in the superclass declaration and in
+subclass declarations.
+c) In a(n) relationship, an object of a subclass can also be treated as an object of
+its superclass.
+d) In a(n) relationship, a class object has references to objects of other classes as
+members.
+e) In single inheritance, a class exists in a(n) relationship with its subclasses.
+f) A superclass’s members are accessible anywhere that the program has a reference
+to an object of that superclass or to an object of one of its subclasses.
+g) When an object of a subclass is instantiated, a superclass is called implicitly or
+explicitly.
+h) Subclass constructors can call superclass constructors via the keyword.
+
+9.2 State whether each of the following is true or false. If a statement is false, explain why.
+a) Superclass constructors are not inherited by subclasses.
+b) A has-a relationship is implemented via inheritance.
+c) A Car class has an is-a relationship with the SteeringWheel and Brakes classes.
+d) When a subclass redefines a superclass method by using the same signature, the subclass is said to overload that superclass method.
+
+9.4 (Software Reuse) Discuss the ways in which inheritance promotes software reuse, saves time during program development and helps prevent errors.
+
+9.5 (Student Inheritance Hierarchy) Draw an inheritance hierarchy for students at a university
+similar to the hierarchy shown in Fig. 9.2. Use Student as the superclass of the hierarchy, then extend
+Student with classes UndergraduateStudent and GraduateStudent. Continue to extend the hierarchy
+as deep (i.e., as many levels) as possible. For example, Freshman, Sophomore, Junior and
+Senior might extend UndergraduateStudent, and DoctoralStudent and MastersStudent might be
+subclasses of GraduateStudent. After drawing the hierarchy, discuss the relationships that exist between
+the classes. [Note: You do not need to write any code for this exercise.]
+
+9.7 (protected vs. private) Some programmers prefer not to use protected access, because
+they believe it breaks the encapsulation of the superclass. Discuss the relative merits of using protected
+access vs. using private access in superclasses

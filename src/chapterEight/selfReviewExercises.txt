@@ -1,0 +1,35 @@
+8.1 Fill in the blanks in each of the following statements:
+a) A(n) imports all static members of a class.
+b) String class static method is similar to method System.out.printf, but returns
+a formatted String rather than displaying a String in a command window.
+c) If a method contains a local variable with the same name as one of its class’s fields, the
+local variable the field in that method’s scope.
+d) The public methods of a class are also known as the class’s or .
+e) A(n) declaration specifies one class to import.
+f) If a class declares constructors, the compiler will not create a(n) .
+g) An object’s method is called implicitly when an object appears in code where
+a String is needed.
+h) Get methods are commonly called or .
+i) A(n) method tests whether a condition is true or false.
+j) For every enum, the compiler generates a static method called that returns an
+array of the enum’s constants in the order in which they were declared.
+k) Composition is sometimes referred to as a(n) relationship.
+l) A(n) declaration contains a comma-separated list of constants.
+m) A(n) variable represents classwide information that’s shared by all the objects
+of the class.
+n) A(n) declaration imports one static member.
+o) The states that code should be granted only the amount of privilege and access
+that it needs to accomplish its designated task.
+p) Keyword specifies that a variable is not modifiable after initialiation in a declaration
+or constructor.
+q) A(n) declaration imports only the classes that the program uses from a particular
+package.
+r) Set methods are commonly called because they typically change a value.
+s) Use class to perform precise monetary calculations.
+t) Use the statement to indicate that a problem has occurred.
+
+8.2 (Based on Section 8.14) Explain the notion of package access in Java. Explain the negative
+aspects of package access.
+
+8.3 What happens when a return type, even void, is specified for a constructor?
+
